@@ -126,6 +126,10 @@ a:focus {
     color: #fff;
 }
 
+.logo-list {
+    padding-top: 20px;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -193,7 +197,7 @@ a:focus {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 75px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
