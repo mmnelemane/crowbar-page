@@ -126,10 +126,6 @@ a:focus {
     color: #fff;
 }
 
-.logo-list {
-    padding-top: 30px;
-}
-
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -197,7 +193,7 @@ a:focus {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 75px;
+    margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
@@ -269,7 +265,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .contribute-section {
@@ -292,7 +288,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
+        padding-top: 150px;
         height: 100%;
     }
 
@@ -309,6 +305,31 @@ a:focus {
         height: 400px;
         margin-top: 250px;
     }
+}
+
+
+.logo-row {
+    padding-bottom: 30px;
+}
+
+.logo-default {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    width: 140px;
+}
+
+.logo-default:hover,
+.logo-default:focus {
+    border: 1px solid #E6E6E6;
+    outline: 0;
+    color: #fff;
+}
+
+a.thumbnail:hover {
+    border: 1px solid #E6E6E6;
+    outline: 0;
+    color: #fff;
 }
 
 .btn {
@@ -333,28 +354,6 @@ a:focus {
     outline: 0;
     color: #fff;
     background-color: #02D35F;
-}
-.logo-row {
-    padding-bottom: 30px;
-}
-
-.logo-default {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: transparent;
-}
-
-.logo-default:hover,
-.logo-default:focus {
-    border: 1px solid #E6E6E6;
-    outline: 0;
-    color: #fff;
-}
-
-a.thumbnail:hover {
-    border: 1px solid #E6E6E6;
-    outline: 0;
-    color: #fff;
 }
 
 ul.banner-social-buttons {
